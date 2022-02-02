@@ -10,6 +10,39 @@
     <script src="./script/script.js" async></script>
 </head>
 <body>
+
+    <div id="pokedex">
+        <header>
+            <img id="header-img" src="./assets/images/header.png" alt="Pokedex header" width="100%">
+        </header>
+        <section>
+            <div id="screen" class="pokedex-content">
+                <div id="pokemon-card">
+                    <div id="pokemon-picture-container">
+                        <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Pokemon" width="100%">
+                    </div>
+                    <div id="pokemon-info">
+                        <p id="pokemon-id">#001</p>
+                        <h1 id="pokemon-name">Bulbasaur</h1>
+                        <p id="pokemon-height">height : <span>2'4"</span></p>
+                        <p id="pokemon-weight">weight: <span>15.2 lbs</span></p>
+                    </div>
+                </div>
+            </div>
+            <div id="search" class="pokedex-content">
+                <form>
+                    <label for="num-search">Search by number :</label>
+                    <div class="search-sub-container">
+                        <input type="number" name="num-search" id="search-input" min="1" max="151" value="1">
+                        <img src="./assets/images/pokeball.png" alt="Search" width="20%">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <img id="footer-img" src="./assets/images/footer.png" alt="Pokedex footer" width="100%">
+        </footer>
+    </div>
     
 </body>
 </html>
