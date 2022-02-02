@@ -30,13 +30,20 @@
                 </div>
             </div>
             <div id="search" class="pokedex-content">
-                <form>
+                <div class="searchbar">
                     <label for="num-search">Search by number :</label>
                     <div class="search-sub-container">
-                        <input type="number" name="num-search" id="search-input" min="1" max="151" value="1">
+                        <input type="number" name="num-search" id="search-number" min="1" max="151" value="1">
                         <img src="./assets/images/pokeball.png" alt="Search" width="20%">
                     </div>
-                </form>
+                </div>
+                <div class="searchbar">
+                    <label for="name-search">Search by name :</label>
+                    <div class="search-sub-container">
+                        <input type="text" name="name-search" id="search-text" >
+                        <img id='ball-search' src="./assets/images/pokeball.png" alt="Search" width="20%">
+                    </div>
+                </div>
             </div>
         </section>
         <footer>
